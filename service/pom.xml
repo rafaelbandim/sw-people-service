@@ -7,11 +7,11 @@
         <groupId>com.rafaelbandim.swapi</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.rafaelbandim.swapi</groupId>
+    <groupId>com.rafaelbandim.swapi.peopleservice</groupId>
     <artifactId>service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>service</name>
-    <description>sw-people-service</description>
+    <description>service</description>
     <properties>
         <java.version>11</java.version>
         <camel.version>3.11.0</camel.version>
