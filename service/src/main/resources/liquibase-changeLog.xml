@@ -11,13 +11,14 @@
                 <constraints primaryKey="true"/>
             </column>
             <column name="name" type="VARCHAR(255)"/>
+            <column name="planet_id" type="BIGINT"/>
         </createTable>
     </changeSet>
 
     <changeSet author="Rafael Bandim" id="02">
         <sql>
-            insert into people (name) values ('Luke Skywalker');
-            insert into people (name) values ('C-3PO');
+            insert into people (name, planet_id) values ('Luke Skywalker',1);
+            insert into people (name, planet_id) values ('C-3PO',1);
         </sql>
     </changeSet>
 

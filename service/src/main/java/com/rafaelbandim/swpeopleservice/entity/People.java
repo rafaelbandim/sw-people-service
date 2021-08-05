@@ -1,4 +1,4 @@
-package com.rafaelbandim.swapi.swpeopleservice.entity;
+package com.rafaelbandim.swpeopleservice.entity;
 
 import javax.persistence.*;
 
@@ -9,6 +9,7 @@ public class People {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String name;
+    private Long planetId;
 
     public People() {
     }
@@ -32,5 +33,13 @@ public class People {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Long getPlanetId() {
+        return planetId;
+    }
+
+    public void setPlanetId(Long planetId) {
+        this.planetId = planetId;
     }
 }
