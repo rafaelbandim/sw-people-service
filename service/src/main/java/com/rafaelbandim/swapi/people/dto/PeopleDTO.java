@@ -1,4 +1,4 @@
-package com.rafaelbandim.swpeopleservice.dto;
+package com.rafaelbandim.swapi.people.dto;
 
 public class PeopleDTO {
     private Long id;

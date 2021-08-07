@@ -1,4 +1,4 @@
-package com.rafaelbandim.swpeopleservice.entity;
+package com.rafaelbandim.swapi.people.entity;
 
 import javax.persistence.*;
 

@@ -1,13 +1,13 @@
-package com.rafaelbandim.swpeopleservice.controller;
+package com.rafaelbandim.swapi.people.controller;
 
-import com.rafaelbandim.swpeopleservice.dto.PeopleDTO;
-import com.rafaelbandim.swpeopleservice.service.PeopleService;
+import com.rafaelbandim.swapi.people.dto.PeopleDTO;
+import com.rafaelbandim.swapi.people.service.PeopleService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.rafaelbandim.swpeopleservice.entity.People;
+import com.rafaelbandim.swapi.people.entity.People;
 
 import java.util.List;
 

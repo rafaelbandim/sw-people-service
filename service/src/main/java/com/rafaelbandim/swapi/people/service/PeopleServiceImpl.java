@@ -1,11 +1,11 @@
-package com.rafaelbandim.swpeopleservice.service;
+package com.rafaelbandim.swapi.people.service;
 
-import com.rafaelbandim.swpeopleservice.dto.PlanetDTO;
+import com.rafaelbandim.swapi.people.dto.PlanetDTO;
 import org.apache.camel.ProducerTemplate;
 import org.springframework.stereotype.Service;
-import com.rafaelbandim.swpeopleservice.dto.PeopleDTO;
-import com.rafaelbandim.swpeopleservice.entity.People;
-import com.rafaelbandim.swpeopleservice.repository.PeopleRepository;
+import com.rafaelbandim.swapi.people.dto.PeopleDTO;
+import com.rafaelbandim.swapi.people.entity.People;
+import com.rafaelbandim.swapi.people.repository.PeopleRepository;
 
 import java.util.List;
 

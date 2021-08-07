@@ -7,7 +7,7 @@
         <groupId>com.rafaelbandim.swapi</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.rafaelbandim.swapi.peopleservice</groupId>
+    <groupId>com.rafaelbandim.swapi.people</groupId>
     <artifactId>service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>service</name>
