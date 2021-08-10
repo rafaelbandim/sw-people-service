@@ -1,6 +1,6 @@
 package com.rafaelbandim.swapi.people.service;
 
-import com.rafaelbandim.swapi.people.dto.PlanetDTO;
+import com.rafaelbandim.swapi.planet.PlanetDTO;
 import org.apache.camel.ProducerTemplate;
 import org.springframework.stereotype.Service;
 import com.rafaelbandim.swapi.people.dto.PeopleDTO;
@@ -29,6 +29,6 @@ public class PeopleServiceImpl implements PeopleService {
     public PeopleDTO findById(Long id) {
         People people = peopleRepository.findById(id).get();
         PlanetDTO planetDTO = producerTemplate.requestBody("activemq:get-planet", people.getPlanetId(), PlanetDTO.class);
-        return new PeopleDTO();
+        return new PeopleDTO(people.getId(), people.getName(), planetDTO);
     }
 }
